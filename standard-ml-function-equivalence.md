@@ -1,5 +1,3 @@
-[*Back to home*](https://npapernot.github.io/programming-languages)
-
 ## Proofs of equivalence (by induction) for standard ML functions
 
 Assume you are given the following function definitions
@@ -30,3 +28,6 @@ fun kfact(0,K) = K 1
   | kfact(n,K) = kfact(n-1, fn v=>K(v*n));
 fun cpsfact n = kfact(n, fn v=> v);
 ```
+
+
+[*Back to home*](https://npapernot.github.io/programming-languages)
