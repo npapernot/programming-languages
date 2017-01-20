@@ -4,7 +4,10 @@
 
 **Side effects** occur when a function modifies the
 program state outside of its scope. They made formal
-verification harder.
+verification harder. Since pure functional languages
+do not have side effects, they cannot immediately
+accomodate I/O. Solutions exist: losing the pure
+functionality, stream transformations, continuation-passing I/O. 
 
 While **control-flow** relies on `while, for` loops
 and other branching statements in iterative programming, 
@@ -18,3 +21,13 @@ can be functions.
 
 **Higher-order function**: a function that takes a function as
 at least one of its arguments.
+
+### Haskell
+
+**Functor**: function on morphism. For instance, the
+length of a list can be computed by concatenation and
+addition. 
+
+In Haskell, **types** are analog to sets of values. They
+don't include type values and how to manipule them
+(e.g., methods in OOP).
