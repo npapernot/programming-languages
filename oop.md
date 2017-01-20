@@ -33,7 +33,9 @@ but then modified in the children class.
 Java uses value semantics for built-in types and reference
 semantics for objects. C gives the choice: using the
 assignment `operator` copies the value, and using a pointer
-copies the reference.
+copies the reference. In Java all arays have reference
+semantics. In C++, arrays are passed by pointer value, which
+is not exactly either value or reference semantics.
 
 **`Final` vs. `const`**: both are designed to hold variables
 with a constant value. In C++, the value can only be modified
