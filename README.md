@@ -5,6 +5,7 @@ I am listing here some notes about programming languages.
 ### Content
 
 * [Proofs of equivalence (by induction) for standard ML functions](standard-ml-function-equivalence.html) 
+* [Notes on recursion](recursion.html) 
 
 ### Support or Contact
 
