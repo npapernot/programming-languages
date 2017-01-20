@@ -2,6 +2,11 @@
 
 ## Scoping
 
+**Strong typing** guarantees that there will not be
+any errors at runtime, and that type errors will be
+caught at compile time. With **weak typing** however,
+type failures are possible.
+
 ## Static scoping
 
 **The static scope of a variable is defined by the most
@@ -22,6 +27,14 @@ duration of the program, unless explicitely deallocated.
 Caller function passes to the callee pointers to its
 stack values themselves pointing to the heap. 
 
+**Advantages**:
+
+* runtime is faster
+
+* no need to carry type info at runtime
+
+* some bugs can be caught in early stages since they are caught at compile time
+
 ## Dynamic scoping
 
 **The dynamic scope of a variable is defined by all
@@ -36,3 +49,9 @@ at run time.
 contain pointers to the most recent declaration of the
 variable. All pointers from previous stack frames
 are forwarded to the new stack frame. 
+
+**Advantages**:
+
+* more flexible, with less restrictions
+
+* better polymorphism (boosts productivity and code reusability)
