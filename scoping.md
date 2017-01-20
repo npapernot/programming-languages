@@ -30,9 +30,7 @@ stack values themselves pointing to the heap.
 **Advantages**:
 
 * runtime is faster
-
 * no need to carry type info at runtime
-
 * some bugs can be caught in early stages since they are caught at compile time
 
 ## Dynamic scoping
@@ -53,7 +51,6 @@ are forwarded to the new stack frame.
 **Advantages**:
 
 * more flexible, with less restrictions
-
 * better polymorphism (boosts productivity and code reusability)
 
 **Examples**: LISP, Perl
