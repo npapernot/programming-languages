@@ -10,6 +10,11 @@ I am listing here some notes about programming languages.
 * [Notes on object-oriented programming](oop.html) 
 * [Notes on scoping](scoping.html) 
 
+### Other notes
+
+**Higher-order function**: a function that takes a function as
+at least one of its arguments.
+
 ### Support or Contact
 
 If you have any suggestions or happen to catch a typo/error in
