@@ -8,6 +8,7 @@ I am listing here some notes about programming languages.
 * [Notes on recursion](recursion.html) 
 * [Notes on grammars](grammars.html) 
 * [Notes on object-oriented programming](oop.html) 
+* [Notes on scoping](scoping.html) 
 
 ### Support or Contact
 
