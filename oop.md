@@ -34,3 +34,8 @@ Java uses value semantics for built-in types and reference
 semantics for objects. C gives the choice: using the
 assignment `operator` copies the value, and using a pointer
 copies the reference.
+
+**`Final` vs. `const`**: both are designed to hold variables
+with a constant value. In C++, the value can only be modified
+before the class is finished being constructed.
+In Java, the value can be modified *once* after construction.
