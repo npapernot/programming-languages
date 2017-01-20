@@ -51,3 +51,7 @@ In Java, the value can be modified *once* after construction.
 * public: class, subclass, package, world
 
 * package: class, package
+
+**Virtual** functions are made to be inherited and
+overriden, the latest implementation is used (dynamic
+binding)
