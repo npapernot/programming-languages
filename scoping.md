@@ -55,3 +55,5 @@ are forwarded to the new stack frame.
 * more flexible, with less restrictions
 
 * better polymorphism (boosts productivity and code reusability)
+
+**Examples**: LISP, Perl
