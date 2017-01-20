@@ -9,11 +9,9 @@ I am listing here some notes about programming languages.
 * [Notes on grammars](grammars.html) 
 * [Notes on object-oriented programming](oop.html) 
 * [Notes on scoping](scoping.html) 
+* [Notes on functional programming](functional.html) 
 
 ### Other notes
-
-**Higher-order function**: a function that takes a function as
-at least one of its arguments.
 
 **Parameter passing strategies**:
 
