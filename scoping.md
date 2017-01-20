@@ -7,6 +7,11 @@ any errors at runtime, and that type errors will be
 caught at compile time. With **weak typing** however,
 type failures are possible.
 
+**Shallow binding** keeps a hash table with the latest
+binding, and stores old values on stack. Instead,
+**deep binding** keeps a stack of bindings. Note that,
+shallow binding brings a major improvement in speed.
+
 ## Static scoping
 
 **The static scope of a variable is defined by the most
