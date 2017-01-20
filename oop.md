@@ -25,3 +25,12 @@ but then modified in the children class.
 * mark-and-sweep is better for long-life objects (handles cycles, only requires one bit) but not good for short-life objects (need to stop program execution, runtime proportional to size of heap, ignores fragmentation)
 
 * mark-and-compact is the same than mark-and-sweep but it handles fragmentation
+
+**Value semantics**: value is copied upon assignment 
+
+**Reference semantics**: pointer is copied upon assignment
+
+Java uses value semantics for built-in types and reference
+semantics for objects. C gives the choice: using the
+assignment `operator` copies the value, and using a pointer
+copies the reference.
