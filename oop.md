@@ -41,3 +41,13 @@ is not exactly either value or reference semantics.
 with a constant value. In C++, the value can only be modified
 before the class is finished being constructed.
 In Java, the value can be modified *once* after construction.
+
+**Class visibility specifier**:
+
+* private: class
+
+* protected: class, subclass, package
+
+* public: class, subclass, package, world
+
+* package: class, package
