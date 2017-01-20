@@ -30,4 +30,4 @@ fun cpsfact n = kfact(n, fn v=> v);
 ```
 
 
-[*Back to home*](https://npapernot.github.io/programming-languages)
+[Back to home](https://npapernot.github.io/programming-languages)
