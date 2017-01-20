@@ -3,7 +3,6 @@
 ## Grammars
 
 **Regular languages** over an alphabet are defined recursively as:
-
 * empty language and empty string are regular languages
 * for each alphabet symbol, the singleton is a language
 * the union, concatenation, and Kleene star of regular languages is a regular language
