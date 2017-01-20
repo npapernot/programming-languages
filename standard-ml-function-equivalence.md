@@ -1,3 +1,5 @@
+[*Back to home*](https://npapernot.github.io/programming-languages)
+
 ## Proofs of equivalence (by induction) for standard ML functions
 
 Assume you are given the following function definitions
